@@ -1,58 +1,40 @@
-/**
-* Template Name: HeroBiz
-* File: variables.css
-* Description: Easily customize colors, typography, and other repetitive properties used in the template main stylesheet file main.css
-* 
-* Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-* 
-* Contents:
-* 1. HeroBiz template variables 
-* 2. Override default Bootstrap variables
-* 3. Set color and background class names
-*
-* Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
-*/
-
 /*--------------------------------------------------------------
 # 1. HeroBiz template variables 
 --------------------------------------------------------------*/
 :root {
-
   /* Fonts */
   --font-default: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: 'Source Sans Pro', sans-serif;
+  --font-primary: 'Roboto', sans-serif;
   --font-secondary: 'Poppins', sans-serif;
 
   /* Colors */
   /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
 
   /* Default text color */
-  --color-default: #1a1f24;
-  --color-default-rgb: 26, 31, 36;
+  --color-default: #1B1B1A;
+  --color-default-rgb: 27, 27, 26;
 
   /* Defult links color */
-  --color-links: #0ea2bd;
-  --color-links-hover: #1ec3e0;
+  --color-links: #115BA6;
+  --color-links-hover: #115BA6;
 
   /* Primay colors */
-  --color-primary: #0ea2bd;
-  --color-primary-light: #1ec3e0;
-  --color-primary-dark: #0189a1;
+  --color-primary: #115BA6;
+  --color-primary-light: #CCE9F7;
+  --color-primary-dark: #115BA6;
 
-  --color-primary-rgb: 14, 162, 189;
-  --color-primary-light-rgb: 30, 195, 224;
-  --color-primary-dark-rgb: 1, 137, 161;
+  --color-primary-rgb: 17, 91, 166;
+  --color-primary-light-rgb: 204, 233, 247;
+  --color-primary-dark-rgb: 17, 91, 166;
 
   /* Secondary colors */
-  --color-secondary: #485664;
-  --color-secondary-light: #8f9fae;
-  --color-secondary-dark: #3a4753;
+  --color-secondary: #CCE9F7;;
+  --color-secondary-light: #CCE9F7;;
+  --color-secondary-dark: #CCE9F7;;
 
-  --color-secondary-rgb: 72, 86, 100;
-  --color-secondary-light-rgb: 143, 159, 174;
-  --color-secondary-dark-rgb: 58, 71, 83;
+  --color-secondary-rgb: 204, 233, 247;
+  --color-secondary-light-rgb: 204, 233, 247;
+  --color-secondary-dark-rgb: 204, 233, 247;
 
   /* General colors */
   --color-blue: #0d6efd;
@@ -76,7 +58,7 @@
   --color-yellow: #ffc107;
   --color-yellow-rgb: 255, 193, 7;
 
-  --color-green: #059652;
+  --color-green: #EAF0C6;
   --color-green-rgb: 5, 150, 82;
 
   --color-teal: #20c997;
@@ -88,7 +70,7 @@
   --color-white: #ffffff;
   --color-white-rgb: 255, 255, 255;
 
-  --color-gray: #6c757d;
+  --color-gray: #999DA4;
   --color-gray-rgb: 108, 117, 125;
 
   --color-black: #000000;
